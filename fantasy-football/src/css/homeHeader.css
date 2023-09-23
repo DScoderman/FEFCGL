@@ -1,0 +1,10 @@
+.FEFHeader {
+    background-color: #567D46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.FEFLogo {
+    width: 150px;
+};
+

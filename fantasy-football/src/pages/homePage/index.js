@@ -1,11 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import FEFTransparent from '../images/FEFTransparent';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import HomeHeader from '../../component/homeHeader';
 const HomePage = () => {
     return (
-        <div> 
-            <h1>Welcome to FEFCGL!</h1>
-            <img src={FEFTransparent} alt="fantasyLogo" />
-        </div>
+        <Container>
+            <Row> 
+                <Col>
+                <HomeHeader></HomeHeader>
+                </Col>
+            </Row>
+        </Container>
+        
 
     );
 }
