@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const HomeHeader = () => {
   return (
-    <Container className="FEFHeader"> {/* Apply the class here */}
+    <Container fluid className="FEFHeader">
       <Row>
         <Col><h1>Welcome to FEFCGL!</h1></Col>
       </Row>
